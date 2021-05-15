@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="8dp"
+        android:elevation="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="@drawable/card_semicircle"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/card_rect"
+                android:id="@+id/imgRecycler"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Ulitimate  guide to acting coding interview for Data science"
+                android:layout_below="@id/imgRecycler"
+                android:id="@+id/txtTitle"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txtDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to interview for Data scienceThe Ulitimate  guide to "
+                android:layout_below="@id/txtTitle"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtDesc"
+                android:id="@+id/horRel">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kdnuggets"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtDays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 6 days to go"
+                android:layout_toRightOf="@id/txtName"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp" />
+
+                <ImageView
+                    android:id="@+id/share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/share"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentRight="true" />
+
+                <ImageView
+                    android:id="@+id/favourite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/favourite"
+                    android:layout_marginTop="10dp"
+                    android:layout_toLeftOf="@id/share" />
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
