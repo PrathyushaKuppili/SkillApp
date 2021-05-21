@@ -30,11 +30,11 @@ class HomeFragment : Fragment() {
 
         //Need to pass the data in the arraylist
 
-        arrayList.add(Model("title","Description",R.drawable.python,"jdbsnw","10 days"))
-        arrayList.add(Model("title2","Description",R.drawable.python,"jdbsnw","10 days"))
-        arrayList.add(Model("title3","Description",R.drawable.python,"jdbsnw","10 days"))
-        arrayList.add(Model("title4","Description",R.drawable.python,"jdbsnw","10 days"))
-        arrayList.add(Model("title5","Description",R.drawable.python,"jdbsnw","10 days"))
+        arrayList.add(Model("The Ulitimate  guide to acting coding interview for Data science","The Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to interview for Data scienceThe Ulitimate  guide to ",R.drawable.python,"Kdnuggets","10 days"))
+        arrayList.add(Model("The Ulitimate  guide to acting coding interview for Data science","The Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to interview for Data scienceThe Ulitimate  guide to ",R.drawable.secondrect,"Kdnuggets","10 days"))
+        arrayList.add(Model("The Ulitimate  guide to acting coding interview for Data science","The Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to interview for Data scienceThe Ulitimate  guide to ",R.drawable.thirdrectangle,"Kdnuggets","10 days"))
+        arrayList.add(Model("The Ulitimate  guide to acting coding interview for Data science","The Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to interview for Data scienceThe Ulitimate  guide to ",R.drawable.secondrect,"Kdnuggets","10 days"))
+        arrayList.add(Model("The Ulitimate  guide to acting coding interview for Data science","The Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to acting coding interview for Data scienceThe Ulitimate  guide to interview for Data scienceThe Ulitimate  guide to ",R.drawable.thirdrectangle,"Kdnuggets","10 days"))
 
         val myAdapter = HomeRecyclerViewAdapter(arrayList,this)
 
