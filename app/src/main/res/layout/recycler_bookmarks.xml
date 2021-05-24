@@ -25,7 +25,7 @@
                 android:layout_height="120dp"
                 android:filterTouchesWhenObscured="true"
                 android:fitsSystemWindows="true"
-                android:src="@drawable/python"
+                android:src="@drawable/location"
                 android:focusableInTouchMode="true"
                 android:scaleType="fitXY" />
         </LinearLayout>

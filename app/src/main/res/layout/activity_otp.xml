@@ -14,10 +14,13 @@
     <ImageView
         android:id="@+id/imgChat"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="220dp"
         android:src="@drawable/text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:background="#fff"
-        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
         />
 
         <TextView
@@ -25,12 +28,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/imgChat"
-            android:layout_marginTop="5dp"
-            android:text="ENTER YOUR OTP"
-            android:textSize="18sp"
             android:layout_centerInParent="true"
             android:layout_marginLeft="30dp"
-            android:textColor="@color/black" />
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/basic"
+            android:text="Enter your OTP"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/txtOtpCon"
@@ -41,7 +46,9 @@
             android:text="We have sent you a verification code via sms for mobile number verification"
             android:textSize="18sp"
             android:layout_centerInParent="true"
+            android:gravity="center"
             android:layout_marginLeft="30dp"
+            android:fontFamily="@font/basic"
             android:layout_marginRight="50dp"
             />
 
@@ -51,16 +58,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="35dp"
             android:cursorVisible="true"
             android:inputType="number"
             android:itemBackground="#65EAEAEA"
+            android:fontFamily="@font/basic"
             app:cursorColor="@color/black"
             app:hideLineWhenFilled="true"
             app:itemCount="4"
-            app:itemHeight="50dp"
+            app:itemHeight="60dp"
             app:itemRadius="5dp"
-            app:itemWidth="50dp"
+            app:itemWidth="60dp"
             app:lineWidth="1dp"
             android:layout_centerInParent="true"
             android:layout_below="@id/txtOtpCon"/>
@@ -68,14 +76,14 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="40dp"
             android:background="@color/btn_cont"
             android:text="Verify"
-            android:gravity="center"
             android:id="@+id/btn_verify"
+            android:fontFamily="@font/basic"
             android:textColor="@color/white"
             android:layout_below="@id/pin_view"
-            android:paddingTop="15dp"
+            android:paddingTop="0dp"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
             android:transitionName="transition_OTP_screen" />
@@ -90,9 +98,11 @@
         android:layout_marginTop="5dp"
         android:textColor="@color/black"
         android:layout_centerInParent="true"
+        android:fontFamily="@font/basic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="30dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="Didn't Receive the OTP"/>
 
@@ -100,13 +110,14 @@
         android:id="@+id/txtResend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:textColor="@color/btn_blue"
         android:layout_centerInParent="true"
         app:layout_constraintTop_toBottomOf="@id/txtReceive"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/basic"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="Resend Code"/>
 

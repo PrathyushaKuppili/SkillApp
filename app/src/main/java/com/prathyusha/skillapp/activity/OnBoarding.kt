@@ -18,7 +18,6 @@ import com.prathyusha.skillapp.adapter.IntroSliderAdapter
 
 class OnBoarding : AppCompatActivity() {
 
-
     lateinit var skip:TextView
     lateinit var introSlideViewPager: ViewPager2
     lateinit var indicatorsContainer:LinearLayout
